@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import MainComponent from './components/MainComponent';
+import TipCalculator from './components/TipCalculator/TipCalculator';
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -27,8 +27,8 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <div className="App">
-        <GlobalStyle/>
-        <MainComponent/>
+        <GlobalStyle />
+        <TipCalculator />
     </div>
   );
 }

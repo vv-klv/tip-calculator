@@ -1,9 +1,8 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const Tip = styled.div`
+export const StyledTip = styled.div`
   display: flex;
-  height: 3rem;
+  height: ${({height}) => height || '3rem'};
   border-radius: 0.25rem;
   font-size: var(--text-md);
   color: white;
@@ -18,5 +17,3 @@ const Tip = styled.div`
     background-color: var(--color-cyan-600);
   }
 `;
-
-export default Tip;

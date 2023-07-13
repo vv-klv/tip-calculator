@@ -1,10 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-import Inputs from './Inputs'
-import Results from './Results'
-
-const MainContainer = styled.div`
+export const MainContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 3rem auto;
@@ -26,14 +22,3 @@ const MainContainer = styled.div`
     width: 100%;
   }
 `;
-
-const MainComponent = () => {
-    return (
-        <MainContainer>
-            <Inputs/>
-            <Results/>
-        </MainContainer>
-    );
-};
-
-export default MainComponent;

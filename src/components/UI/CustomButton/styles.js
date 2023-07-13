@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const CustomButton = styled.button`
+export const StyledButton = styled.button`
   height: 3rem;
   border-radius: 0.5rem;
   text-transform: uppercase;
@@ -15,5 +14,3 @@ const CustomButton = styled.button`
     background-color: var(--color-cyan-600);
   }
 `;
-
-export default CustomButton;
