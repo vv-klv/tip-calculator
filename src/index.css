@@ -7,6 +7,8 @@
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
   background-color: hsl(185, 41%, 84%);
   font-family: 'Space Mono', sans-serif;
 }
@@ -14,4 +16,17 @@ body {
 input, button {
   outline: none;
   border: none;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
